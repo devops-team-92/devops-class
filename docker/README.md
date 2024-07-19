@@ -22,7 +22,7 @@ These are hands-on resources to help you learn Docker.
 
 - [Running containers](https://docker.courselabs.co/lab1/running-containers)
 - [Constructing the container environment](https://docker.courselabs.co/lab1/container-environment)
-- [Building images](https://docker.courselabs.co/lab1/building-images)
+- [Building images](https://docker.courselabs.co/labs/images/)
 - [Using image registries](https://docker.courselabs.co/lab1/image-registries)
 
 ## Part 2 - Multi-Container Applications
