@@ -20,10 +20,30 @@ These are hands-on resources to help you learn Docker.
 - Install [Visual Studio Code (free - Windows, macOS, and Linux)](https://code.visualstudio.com/) to browse the repo and documentation.
 
 ## Part 1 - Containers and Images
-
-- [Running containers](https://docker.courselabs.co/labs/containers/)
 - [Building images](https://docker.courselabs.co/labs/images/)
+  - commands to use
+     ```
+        cd docker
+        docker images
+        docker build -t my-httpd .
+        docker images
+        docker run -d -p 8080:80 my-httpd "Hello, Docker2!"
+     ```
+- [Running containers](https://docker.courselabs.co/labs/containers/)
+  - command to use
+    ```
+      docker ps
+      docker run -d -p 8081:80 my-httpd "Hello, Docker!"
+      docker ps
+      docker ps -a
+    ```
 - [Using image registries](https://docker.courselabs.co/labs/registries/)
+  - command to use
+    ```
+     docker login <remote-repo>
+     docker tag
+     docker push <remote-repo>
+    ```
 
 ## Part 2 - Multi-Container Applications
 
