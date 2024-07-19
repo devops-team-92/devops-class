@@ -15,7 +15,7 @@ These are hands-on resources to help you learn Docker.
     - Run: `git clone https://github.com/devops-team-92/devops-class.git` 📋
     - Open the folder: `cd ./devops-class/docker` 📋
    
-1. [Set up Docker and a Git client](https://docs.docker.com/get-docker/)
+1. [Set up Docker ](https://docs.docker.com/get-docker/)
    - For centos/redhat machine you can add docker repo and install using
      ```
      yum install docker
