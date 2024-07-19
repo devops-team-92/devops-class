@@ -1,5 +1,5 @@
 # devops-class
-
+```
 Devops Curriculum
 • Introduction
 • Devops on Cloud and On-prem
@@ -11,3 +11,4 @@ Devops Curriculum
 • Containerization
 • Microservices Orchestration
 • Monitoring , Logging , Alerting
+```
