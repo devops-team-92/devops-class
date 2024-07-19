@@ -7,7 +7,11 @@ These are hands-on resources to help you learn Docker.
 ## Pre-reqs
 
 1. [Set up Docker and a Git client](https://docs.docker.com/get-docker/)
-   - For centos/redhat machine you can add docker repo and install using # yum install docker
+   - For centos/redhat machine you can add docker repo and install using
+     ```
+     yum install docker
+     systemctl start docker
+     ```
 3. Create a [Docker Hub account (free)](https://hub.docker.com/)
 4. Download the lab content:
     - Open a terminal (PowerShell, Bash, ZSH, or whatever you use)
