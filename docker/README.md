@@ -10,7 +10,7 @@ These are hands-on resources to help you learn Docker.
 2. Create a [Docker Hub account (free)](https://hub.docker.com/)
 3. Download the lab content:
     - Open a terminal (PowerShell, Bash, ZSH, or whatever you use)
-    - Run: `git clone https://github.com/courselabs/docker` 📋
+    - Run: `git clone https://github.com/devops-team-92/devops-class.git` 📋
     - Open the folder: `cd docker` 📋
 4. Log in to Docker Hub:
     - `docker login` 📋 using your Docker Hub ID
@@ -20,10 +20,9 @@ These are hands-on resources to help you learn Docker.
 
 ## Part 1 - Containers and Images
 
-- [Running containers](https://docker.courselabs.co/lab1/running-containers)
-- [Constructing the container environment](https://docker.courselabs.co/lab1/container-environment)
+- [Running containers](https://docker.courselabs.co/labs/containers/)
 - [Building images](https://docker.courselabs.co/labs/images/)
-- [Using image registries](https://docker.courselabs.co/lab1/image-registries)
+- [Using image registries](https://docker.courselabs.co/labs/registries/)
 
 ## Part 2 - Multi-Container Applications
 
@@ -35,6 +34,7 @@ These are hands-on resources to help you learn Docker.
 ## Part 3 - Advanced Docker
 
 - [Multi-stage builds](https://docker.courselabs.co/lab3/multi-stage-builds)
+- [Constructing the container environment](https://docker.courselabs.co/labs/env/)
 - [Container networking](https://docker.courselabs.co/lab3/container-networking)
 - [Understanding orchestration](https://docker.courselabs.co/lab3/orchestration)
 - [Kubernetes 101](https://docker.courselabs.co/lab3/kubernetes-101)
