@@ -27,7 +27,6 @@ These are hands-on resources to help you learn Docker.
         docker images
         docker build -t my-httpd .
         docker images
-        docker run -d -p 8080:80 my-httpd "Hello, Docker2!"
      ```
 - [Running containers](https://docker.courselabs.co/labs/containers/)
   - command to use
